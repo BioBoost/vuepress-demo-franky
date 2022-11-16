@@ -6,15 +6,18 @@ export default  {
   theme: defaultTheme({
     // default theme config
     sidebar: [
-      {
-        text: 'Home',
-        link: '/README.md',
-      },
-      {
-        text: 'Chapter 01 Intro',
-        link: '/chapter-01-intro/README.md',
-      },
+      '/README.md',
+      '/chapter-01-intro/README.md'
+      // {
+      //   text: 'Home',
+      //   link: '/README.md'
+      // },
+      // {
+      //   text: 'Chapter 01 Intro',
+      //   children: [
+      //     '/chapter-01-intro/README.md'
+      //   ],
+      // },
     ],
-    sidebarDepth: 2
   }),
 }
